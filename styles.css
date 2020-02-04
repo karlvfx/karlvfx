@@ -1,11 +1,11 @@
-P {     
+P {
     font-family: 'Raleway', sans-serif;
 }
-     
+
 img{
      display: block;
-    margin-left: auto;
-     margin-right: auto;     
+     margin-left: auto;
+     margin-right: auto;
  }
 .button {
     background-color: #4CAF50; /* Green */
@@ -20,41 +20,41 @@ img{
  body {
     background-color: #e66881;
 }
-         
+
 table{
     background-color: aliceblue;
  }
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+    background-color: #dddddd;
 }
 
 #cf {
-  position:relative;
-  height:281px;
-  width:300px;
-  margin:0 auto;
+    position:relative;
+    height:281px;
+    width:300px;
+    margin:0 auto;
     text-align: center;
 }
 
 #cf img {
-  position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
+    position: absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
     text-align: center;
 }
 
@@ -65,5 +65,39 @@ tr:nth-child(even) {
 pooleks{
     margin-left:auto;
     margin-right:auto;
-   width:50%;
+    width:50%;
+}
+tn{
+    text-align: center;
+}
+.button2 {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 1700px;
+    margin-bottom: -8px;
+}
+p2 {
+    width: 45px;
+    margin-top: -80px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    font-size: 25px;-
+    border-radius:2px;
+    padding: 0px;
+    margin-left: 1490px;
+
+  }
+
+  h2{
+    text-align: center;
+  }
+.innerHTML {
+  text-align: center;
 }
