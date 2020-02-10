@@ -1,12 +1,8 @@
 P {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Cabin', sans-serif;
+    font-size: 30px;
+    margin-left: 100px;
 }
-
-img{
-     display: block;
-     margin-left: auto;
-     margin-right: auto;
- }
 .button {
     background-color: #4CAF50; /* Green */
     border: none;
@@ -16,33 +12,16 @@ img{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    font-family:'Cabin', sans-serif;
 }
  body {
-    background-color: #e66881;
-}
-
-table{
-    background-color: aliceblue;
- }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-}
-
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-}
-
-tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: white;
+    font-family: 'Cabin', sans-serif;
 }
 
 #cf {
-    position:relative;
-    height:281px;
+    position: -relative;
+    height:465px;
     width:300px;
     margin:0 auto;
     text-align: center;
@@ -58,17 +37,49 @@ tr:nth-child(even) {
     text-align: center;
 }
 
-#cf img.top:hover {
-  opacity:0;
+@keyframes cf3FadeInOut {
+ 0% {
+ opacity:1;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:0;
+}
+100% {
+opacity:0;
+}
 }
 
-pooleks{
-    margin-left:auto;
-    margin-right:auto;
-    width:50%;
+#cf img.top {
+animation-name: cf3FadeInOut;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-duration: 6s;
+animation-direction: alternate;
 }
-tn{
-    text-align: center;
+
+table {
+    background-color: #e66881;
+    opacity: 95%;
+    font-family: 'Cabin', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+    opacity: 100%;
+
+}
+
+tr:nth-child(even) {
+    background-color: white;
 }
 .button2 {
     background-color: #4CAF50; /* Green */
@@ -80,11 +91,12 @@ tn{
     display: inline-block;
     font-size: 16px;
     margin-left: 1700px;
-    margin-bottom: -8px;
+    margin-bottom: -10px;
+    font-family:'Cabin', sans-serif;
 }
-p2 {
+.total {
     width: 45px;
-    margin-top: -80px;
+    margin-top: -20px;
     height: 20px;
     text-align: center;
     color: black;
@@ -95,9 +107,81 @@ p2 {
 
   }
 
-  h2{
-    text-align: center;
-  }
 .innerHTML {
   text-align: center;
+  font-size: 15px;
+}
+.split {
+  height: 60%;
+  width: 50%;
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 46px;
+  margin-top: 76px;
+}
+.left {
+  left: 0;
+  background-color: #e66881;
+}
+.right {
+  right: 0;
+  background-color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.centered img {
+  top: 50%
+  left: 50%
+  margin: auto;
+  transform: translate(-50%, -50%);
+  display: block;
+}
+.pooleks{
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 46px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 60px;
+  color: white;
+  margin-left: 50px;
+}
+h3{
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+a{
+  font-size: 20px;
+  text-align: center;
+}
+#trial {
+  width: 100%;
+  background-color: #e66881;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+h1 {
+  margin-top: 4px;
+  color: white;
+  font-size: 34px;
+}
+h4{
+  color: white;
+  font-size: 17;
 }

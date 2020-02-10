@@ -3,83 +3,85 @@
  <head>
      <title>StopADS!</title>
      <link rel="shortcut icon" href="pixil-frame-0%20(1).png"/>
-     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" />
+     <link href="https://fonts.googleapis.com/css?family=Cabin&display=swap" rel="stylesheet">
      <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-        <img src="stopadslogo.png"></img>
-        <p style="font-family: 'Raleway', sans-serif; font-size: 47px; text-align: center;">StopADS!</p>
-        <div id="cf">
-          <img class="bottom" src="https://lh3.googleusercontent.com/51AKN1Eh_lQCSV2659-KzvF4a48aHyJULJsfytXaPPCP2dnLIbidu9FlxhddvLwV21nlMG4b=w640-h400-e365" />
-          <img class="top" src="https://lh3.googleusercontent.com/cUs1YuNaFNsJB1bZGnxhHZTPjqEPE39hpAoFqfNFD0nKOohEhW3zZrCW18BWIB_t1u87EAgYOw=w640-h400-e365"/>
-      </div>
-          <iframe width="600" height="330" src="https://www.youtube.com/embed/eNdIdSX-g6M" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-          </iframe>
-            <div id="toc_container">
-              <p class="toc_title">Contents</p>
-              <ul class="toc_list">
-              <li><a href="#App_description"> App description</a></li>
-              <li><a href="#User_segment"> User segment </a>
-              <li><a href="#Prototype"> Prototype</a>
-              <li><a href="#Feature_table">Feature table </a></li>
-              <hr> </hr>
-              </ul>
+      <p> StopADS! </p>
+      <div class="tups">
+      <img src="https://i.imgur.com/z4a5XuD.png"></img>
+    </div>
+        <div class="split left">
+          <div class="centered">
+            <h2>Enjoy browsing the internet smoothly
+              and without ads.</h2>
+            <button class="button"><a href="https://www.figma.com/file/2TpP41bFkscOKDvRlv92t4/Untitled?node-id=0%3A1">Try the prototype!</a></button>
           </div>
-          <div id="pooleks"></div>
-	         <h1 id="App_description">App description </h1>
-	          <p>Enjoy browsing the internet smoothly and without ads! </p>
-	           <h1><a href="https://www.figma.com/file/2TpP41bFkscOKDvRlv92t4/Untitled?node-id=0%3A1">Prototype</a></h1>
-             <hr> </hr>
-           </div>
-           <button class="button">Start your free 30 day trial!</button>
-           <h2 id="Feature_table">Feature table</h2>
+        </div>
+        <div class="split right">
+          <div class="centered">
+            <div id="cf">
+              <img class="bottom" src="https://images.wallpaperscraft.com/image/bird_silhouette_vector_134154_1920x1080.jpg" />
+              <img class="top" src="https://wallpaperaccess.com/full/941790.jpg"/>
+            </div>
+          </div>
+        </div>
+        <div id="trial">
+          <h1>Don't want to buy our product right away?</h1>
+          <h4> Try StopADS! free for 30 days.</h4>
+          <button class="button">Start your free 30 day trial now!</button>
+        </div>
+           <div class="table">
+           <h3 id="Feature_table">Feature table & checkout</h3>
            <button id="checkout" class="button2"><a href="checkout.html">Go to checkout!</a></button>
            <p2 class="total">Total: <span id="total"></span></p2>
            <table>
-          <tr>
+             <tr>
                   <th>Featues</th>
                   <th>Free</th>
                   <th>Starter</th>
                   <th>Pro</th>
-        </tr>
-         <tr>
+                </tr>
+                <tr>
                   <td>Blocks ads</td>
                   <td>Yes</td>
                   <td>Yes</td>
                   <td>Yes</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
                 <td>Limited sites/apps</td>
                 <td>Yes (3)</td>
                 <td>Yes (6)</td>
                 <td>No (unlimited) </td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
                 <td>Number of creatable user accounts</td>
                 <td>1</td>
                 <td>2</td>
                 <td>4</td>
-          </tr>
-          <tr>
+           </tr>
+           <tr>
                 <td>Cross platform </td>
                 <td>No</td>
                 <td>2 platforms</td>
                 <td>Unlimited</td>
-        </tr>
-        <tr>
+           </tr>
+           <tr>
                 <td>Price</td>
                 <td id="price2"></td>
                 <td id="price1"></td>
                 <td id="price3"></td>
-      </tr>
-      <tn>
-        <td></td>
-          <td id="add-to-cart2" value2="0;" onclick="update2();"><p id="price2"></p><img id="image-cart2" class="cart" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><p id="cart-message2" onclick="update2 () ;"></p></td>
-          <td id="add-to-cart" value="4" onclick="update();"><p id="price1"></p><img id="image-cart" class="cart"  src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><p id="cart-message" onclick="update () ;"></p></td>
-          <td id="add-to-cart3" value3="7;" onclick="update3();"><p id="price3"></p><img id="image-cart3" class="cart" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><p id="cart-message3" onclick="update3 () ;"></p></td>
-      </tr>
-      <div id="priceTotal" />
-    </table>
+           </tr>
+           <tr>
+           <td></td>
+           <td id="add-to-cart2" value2="0;" onclick="update2();"><p id="price2"></p><img id="image-cart2" class="cart" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><a id="cart-message2" onclick="update2 () ;"></a></td>
+           <td id="add-to-cart" value="4" onclick="update();"><p id="price1"></p><img id="image-cart" class="cart"  src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><a id="cart-message" onclick="update () ;"></a></td>
+           <td id="add-to-cart3" value3="7;" onclick="update3();"><p id="price3"></p><img id="image-cart3" class="cart" src="https://www.freepnglogos.com/uploads/shopping-cart-png/shopping-cart-svg-png-icon-download-28.png" width="100" height="100"></img><a id="cart-message3" onclick="update3 () ;"></a></td>
+           </tr>
+           <div id="priceTotal" />
+           </table>
+
+
     <script type="text/javascript">
 
       var price2 = Math.random() * -1 + 1;
